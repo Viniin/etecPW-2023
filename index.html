@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="assets/img/pw.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ensinamentos JS</title>
+</head>
+<body>
+
+    <!-- CAROUSEl DAS FUNÇÕES DO JS -->
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <h1 class="title"><--- Clique nas extremidades ---></h1>
+
+            <div class="carousel-item active">
+                <h1 class="title">Função do JS: onClick</h1>
+                <h2 class="subtitle">Como usar o onclick no JavaScript?</h2>
+
+                    <p>O evento onclick executa determinada funcionalidade quando um botão é clicado. Isso pode ocorrer quando um usuário envia um formulário, quando você altera determinado conteúdo na página da web e assim por diante. Você coloca a função em JavaScript que você quer executar dentro da tag de abertura do botão.</p>
+            
+                    <div class="alignment">
+                        <a href="pages/onClick.html"><input type="submit" id="onClick-teste" value="ver onClick na pratica"></input></a>
+                    </div>
+                
+            </div>
+
+            <div class="carousel-item">
+                <h1 class="title">Função do JS: dblClick</h1>
+                <h2 class="subtitle">Como usar o dblClick no JavaScript?</h2>
+
+                    <p>O evento dblClick ocorre quando o usuário clica duas vezes com o mouse sobre o elemento. $(“p”). dblclick(function() { alert(“clicou duas vezes”); }) - Emite um alerta quando o usuário clica duas vezes sobre um parágrafo.</p>
+            
+                    <div class="alignment">
+                        <a href="pages/dblClick.html"><input type="submit" id="dblClick-teste" value="ver dblClick na pratica"></input></a>
+                    </div>
+            </div>
+
+            <div class="carousel-item">
+                <h1 class="title">Função do JS: onChange</h1>
+                <h2 class="subtitle">Como usar o onChange no JavaScript?</h2>
+
+                    <p>O evento onChange é utilizado para que seja realizada determinada ação após alguma mudança. No exemplo abaixo iremos fazer essa mudança acontecer ao clicarmos fora do input text.</p>
+            
+                    <div class="alignment">
+                        <a href="pages/onChange.html"><input type="submit" id="onChange-teste" value="ver onChange na pratica"></input></a>
+                    </div>
+            </div>
+
+            <div class="carousel-item">
+                <h1 class="title">Função do JS: input</h1>
+                <h2 class="subtitle">Como usar o input no JavaScript?</h2>
+
+                    <p>Essa função simplesmente vai no documento html ou qualquer outro e pega um elemento pelo id (getElementById()), class (getElementByClass()), name (getElementByName()) ou todos eles (querySelectorAll()), especificamente o elemento textinput (nosso formulário input), copia seu valor (. value) e atribui a variável valor. E prontinho, agora a variável valor pegou o que você digitou no formulário de input.</p>
+            
+                    <div class="alignment">
+                        <a href="pages/input.html"><input type="submit" id="input-teste" value="ver input na pratica"></input></a>
+                    </div>
+            </div>
+
+            <div class="carousel-item">
+                <h1 class="title">Função do JS: onLoad</h1>
+                <h2 class="subtitle">Como usar o onLoad no JavaScript?</h2>
+
+                    <p>Ele tem um funcionamento bem simples: quando tudo do elemento tiver sido carregado, ele vai disparar a ação, que geralmente é uma função do JavaScript. Sem mistério. Assim, quando o corpo do site estava totalmente carregado (incluindo imagens, scripts, arquivos de estilo CSS etc).</p>
+            
+                    <div class="alignment">
+                        <a href="pages/onLoad.html"><input type="submit" id="onLoad-teste" value="ver onLoad na pratica"></input></a>
+                    </div>
+            </div>
+
+            <div class="carousel-item">
+                <h1 class="title">Função do JS: onMouseOver e onMouseOut</h1>
+                <h2 class="subtitle">Como usar o onMouseOver e onMouseOut no JavaScript?</h2>
+
+                    <p>Através do evento onMouseover, quando o mouse estiver em cima da imagem, ela será substituída por imagem2. jpg. O evento onMouseout serve para substituir a imagem quando o mouse não estiver mais sobre ela, no caso, a imagem voltará a seu estado normal. Os atributos dos eventos onMouseover e onMouseout são “document.onMouseOver" e "document.onMouseOut".</p>
+            
+                    <div class="alignment">
+                        <a href="pages/onMouse.html"><input type="submit" id="onMouse-teste" value="ver onMouse na pratica"></input></a>
+                    </div>
+            </div>
+
+            <div class="carousel-item">
+                <h1 class="title">Função do JS: onKeyDown, onKeyPress e onKeyUp </h1>
+                <h2 class="subtitle">Como usar o onKeyDown, onKeyPress e onKeyUp no JavaScript?</h2>
+
+                    <p>O onkeydown é disparado assim que a tecla é pressionada, sendo assim o primeiro entre os eventos a ser disparado. Em seguida é a vez do onkeypress, ou seja, enquanto a tecla está sendo pressionada e por último, quando a tecla é solta, o evento onkeyup é executado.</p>
+            
+                    <div class="alignment">
+                        <a href="pages/onKey.html"><input type="submit" id="onKey-teste" value="ver onKey na pratica"></input></a>
+                    </div>
+            </div>
+
+            <div class="carousel-item">
+                <h1 class="title">Função do JS: onFocus </h1>
+                <h2 class="subtitle">Como usar o onFocus no JavaScript?</h2>
+
+                    <p>O evento onfocus dispara quando algum tipo de formulário (como input) está selecionado, ou seja, quando estamos usando ele, clicamos, digitamos ou estamos exercendo alguma ação nele. Já o evento onblur ocorre quando 'saímos' desse formulário.</p>
+            
+                    <div class="alignment">
+                        <a href="pages/onFocus.html"><input type="submit" id="onFocus-teste" value="ver onFocus na pratica"></input></a>
+                    </div>
+            </div>
+
+            </div>
+
+            <!-- ICONE -->
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span id="teste" class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+    <!-- FIM - CAROUSEl DAS FUNÇÕES DO JS -->
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>

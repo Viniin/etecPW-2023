@@ -1,0 +1,93 @@
+/* IMPORT DE FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+/* --------------- */
+
+:root {
+    --White: #fff;
+    --darkPurple: #312A50;
+    --Purple: #514686;
+    --LightPurple: #6457A6;
+    --PantonePurple: #9592C8;
+}
+
+* {
+
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    box-sizing: border-box;
+
+}
+
+.slide {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: transparent;
+
+}
+
+.carousel-inner {
+
+    width: 80%;
+    position: relative;
+
+} 
+
+.title {
+
+    font-family: 'Alkatra', cursive;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--LightPurple);
+
+}
+
+.subtitle {
+
+    font-family: 'Passion One', cursive;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 1rem;
+    color: var(--PantonePurple);
+
+}
+
+p {
+
+    line-height: 2rem;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.3rem;
+
+}
+
+.alignment {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+input {
+
+    border: none;
+    background: var(--Purple);
+    color: var(--White);
+    padding: 12px;
+    border-radius: 12px;
+    margin-top: 1rem;
+    transition: all 0.7s ease;
+
+}
+input:hover {
+
+    background: var(--darkPurple);
+    transition: all 0.7s ease;
+
+}
