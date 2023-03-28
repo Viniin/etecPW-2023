@@ -15,7 +15,7 @@ btn.addEventListener("click", function(){
    
     document.getElementById("conteudo2").innerHTML = "<p>se voce quiser colocar alguma coisa para aparecer é so trocar</p>";
 
-    this.style.color= "green";
+    this.style.color= "red";
 
 });
 
@@ -25,6 +25,8 @@ var titulo = document.querySelector("#titulo");
 
 titulo.addEventListener("click", function(){
     console.log("fununcia tambem");
+
+    this.style.color= "red";
 
     alert("Essa funçao esta progamada diretamente pelo js tendo so o id do texto");
 })
